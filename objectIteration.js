@@ -37,7 +37,7 @@ function getCityPopulation(city) {
 }
 // console.log(getCityPopulation(cities[0])); // Outputs: 8398748
 //hi
-// 2) Write a `isPopulationAboveThreshold` function that accepts the following arguments `city` object and `threshold` number, return true if the city's population is greater than or equal to the threshold, otherwise returns false
+// 2) Write a `isPopulationAboveThreshold` function his that accepts the following arguments `city` object and `threshold` number, return true if the city's population is greater than or equal to the threshold, otherwise returns false
 function isPopulationAboveThreshold(city, threshold) {
   return city.population >= threshold ? true : false;
 }
